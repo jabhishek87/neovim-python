@@ -10,6 +10,9 @@ NVchad: https://github.com/NvChad/NvChad
 To install this for your neovim configuration
 
 ```
+# remove previous config
+$ mv ~/.config/nvim ~/.config/nvim.backup
+$ rm -rf ~/.local/share/nvim/
 $ git clone git@github.com:jabhishek87/neovim-python.git ~/.config/nvim/lua/custom
 ```
 
